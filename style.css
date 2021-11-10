@@ -1,0 +1,207 @@
+body
+{
+    background-image: url('./shara\ desert.jpg');
+    overflow: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    /* display: flex; */
+}
+.navbar
+{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+}
+.logo
+{
+    width: 60px;
+    float: left;
+    height: 50px;
+    /* display: flex; */
+}
+.menu
+{
+    float: right;
+}
+.menu li
+{
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+}
+.menu li a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar_links
+{
+    /* width: 60%; */
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .menu li a : hover;
+{
+    color:black;
+} */
+.container1
+{
+    /* margin: auto; */
+    float: left;
+    color: beige;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 250px;
+}
+.class1
+{
+    font-size: 70px;
+    position: relative;
+    margin: 60px;
+    /* top: 30px; */
+}
+.class2
+{
+    font-size: 15px;
+    position: absolute;
+    margin: 60px;
+    top: 120px;
+}
+button
+{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 15px;
+    border: 1px solid white;
+    padding: 14px 50px;
+    position: absolute;
+    margin: 60px;
+    top: 220px;
+    
+}
+.container-img
+{
+   /* width: 55%; */
+   float: right;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly; 
+   margin: 20px;
+}
+/* .container2
+{
+    position: relative;
+    height: 200px;
+    padding: 120px;
+    box-sizing: border-box;
+} */
+.card
+{
+    border-radius: 10px;
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.5s ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 20px rgb(71,71,71);
+    position: absolute;   
+}
+.card:hover
+{
+    animation: shake 0.5s;
+}
+@keyframes shake
+{
+    50%
+    {
+        transform:translateY(1px 1px);
+    }
+}
+#box
+{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    top: 20px;
+}
+p
+{
+    color: white;
+    font-size: 10px;
+    margin-left:20px ;
+}
+.card1
+{
+    background-image: url(./pic-1.png);
+    left: 750px;
+    top: 200px;
+}
+.card2
+{
+    background-image: url(./pic-2.png);
+    left: 1150px;
+    top: 200px;
+}
+.card3
+{
+    background-image: url(./pic-3.png);
+    left: 750px;
+    top: 430px;
+}
+.card4
+{
+    background-image: url(./pic-4.png);
+    left: 1150px;
+    top: 430px;
+}
+
+@media only screen and (max-width:990px)
+{
+    .container1
+    {
+        width: 100%;
+        display: block;
+        padding: 50px;
+    }
+    .container-img
+    {
+        width: 100%;
+        display: flex;
+    }
+    .container2
+    {
+        width: 100%;
+        display: flex;
+    }
+    .container3
+    {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
